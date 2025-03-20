@@ -20,7 +20,7 @@ export default {
       fetch('https://facts-by-api-ninjas.p.rapidapi.com/v1/facts', {
         method: "GET",
         headers: {
-          "X-RapidAPI-Key": 'cb4545bcdamsh167c0cb6685f900p14e854jsn9f8035654a5b',
+          "X-RapidAPI-Key": 'your-api-key',
           "X-RapidAPI-Host": 'facts-by-api-ninjas.p.rapidapi.com',
         },
       })
