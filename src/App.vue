@@ -21,11 +21,11 @@ export default {
   },
   methods: {
     fetchData() {
-      fetch('https://random-cat-fact.p.rapidapi.com/', {
+      fetch('https://facts-by-api-ninjas.p.rapidapi.com/v1/facts', {
         method: "GET",
         headers: {
           "x-rapidapi-key": 'cb4545bcdamsh167c0cb6685f900p14e854jsn9f8035654a5b',
-          "x-rapidapi-host": 'random-cat-fact.p.rapidapi.com',
+          "x-rapidapi-host": 'facts-by-api-ninjas.p.rapidapi.com',
         },
       })
         .then((response) => {
